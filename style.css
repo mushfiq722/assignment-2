@@ -1,19 +1,18 @@
 body{
-    background-color: #F3F1FF;
+   
+    margin: 0;
 }
 
 
 header{
     display: flex;
     justify-content: center;
-    text-align: center;
     background-color: #2D25A0;
-    margin: 0;
-   
-  
+     
 }
 h1{
     font-size: 44px;
+    margin-top: 20px;
 }
 header img{
     width: 556.01px;
@@ -29,6 +28,7 @@ header img{
 }
 
 button{
+    text-decoration: none;
     padding: 5px 5px;
 }
 button:hover{
@@ -57,6 +57,7 @@ main{
     height: 256px;
 }
 .players{
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap:30px;
@@ -98,6 +99,15 @@ main{
     border-radius: 30px;
    
 }
-
-
+footer{
+    text-align: center;
+    letter-spacing: 2px;
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.social{
+    font-size: 50px;
+}
 
