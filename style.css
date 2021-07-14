@@ -1,5 +1,5 @@
 body{
-   
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -52,11 +52,13 @@ main{
     
 }
 .player img{
+    align-items: center;
     border-radius: 10px;
     width: 300px;
     height: 256px;
 }
 .players{
+    font-size: 13px;
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,6 +85,7 @@ main{
     justify-content: center;
     align-items: center; 
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 .blog{
     width: 50%;
@@ -91,6 +94,7 @@ main{
 .blog img{
     width: 80%;
     margin-left: 200px;
+    border-radius: 10px;
 }
 .social{
     color: #FF4A60;
