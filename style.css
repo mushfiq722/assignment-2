@@ -115,3 +115,30 @@ footer img{
     font-size: 50px;
 }
 
+
+.navigation{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #2D25A0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.nav{
+    margin-left: 230px;
+    color: white; 
+}
+.nav1{
+    margin-left: 50px;
+}
+.login{
+    margin-left: 280px;
+    width: 123px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 400;
+    border: 0;
+}
