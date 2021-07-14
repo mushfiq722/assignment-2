@@ -1,0 +1,103 @@
+body{
+    background-color: #F3F1FF;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #2D25A0;
+    margin: 0;
+   
+  
+}
+h1{
+    font-size: 44px;
+}
+header img{
+    width: 556.01px;
+    height: 438px;
+    left: 1299.01px;
+    top: 153px;
+    margin-left:500px;
+    margin-top: 10px;
+}
+.head-con{
+    margin-left: 20px;
+    color:  #FFFFFF;
+}
+
+button{
+    padding: 5px 5px;
+}
+button:hover{
+    text-decoration:none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 12px;
+    border-radius: 3.5px;
+    transition: 0.5s;
+}
+.button-1:hover {
+    color: aliceblue;
+    transform: 0.8s;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    
+}
+.player img{
+    border-radius: 10px;
+    width: 300px;
+    height: 256px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px;
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: justify;
+    margin-right: 5%;
+    box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.container2{
+    background-color: #ffffff;
+    
+}
+
+.bols{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+}
+.blog{
+    width: 50%;
+    margin-right: 100px;
+}
+.blog img{
+    width: 80%;
+    margin-left: 200px;
+}
+.social{
+    color: #FF4A60;
+    margin-left: 30px;
+    padding: 8px;
+    border-radius: 30px;
+   
+}
+
+
+
